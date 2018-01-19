@@ -4,7 +4,8 @@
   "description": "PSEUDO",
   "main": "keys.js",
   "dependencies": {
-    "inquirer": "^5.0.0"
+    "inquirer": "^5.0.0",
+    "node-spotify-api": "^1.0.7"
   },
   "devDependencies": {},
   "scripts": {
