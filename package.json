@@ -4,8 +4,12 @@
   "description": "PSEUDO",
   "main": "keys.js",
   "dependencies": {
+    "dotenv": "^4.0.0",
     "inquirer": "^5.0.0",
-    "node-spotify-api": "^1.0.7"
+    "node-spotify-api": "^1.0.7",
+    "request": "^2.83.0",
+    "spotify": "^0.3.0",
+    "twitter": "^1.7.1"
   },
   "devDependencies": {},
   "scripts": {
@@ -15,7 +19,7 @@
     "type": "git",
     "url": "git+https://github.com/MASK-13/liri-node-app-.git"
   },
-  "author": "",
+  "author": "Mike M",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/MASK-13/liri-node-app-/issues"

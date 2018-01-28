@@ -4,6 +4,7 @@ var keys = require('./keys.js');
 var fs = require("fs");
 var request = require('request');
 var spotify = require('spotify');
+var Twitter = require ('twitter');
 
 //.. keys from keys.js //
  var keyList = new Twitter(keys.twitterKeys);
@@ -172,7 +173,7 @@ function movie() {
 
         // If the request is successful
 
-        if (!error && response.statusCode === 200) {.
+        if (!error && response.statusCode === 200) {
 
             //..
             console.log("Title: " + JSON.parse(body).Title);
